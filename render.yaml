@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: devxenx-cloud
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: ADMIN_ID
+        sync: false
+      - key: BRAND_NAME
+        value: "𝐃𝐞𝐯𝐗𝐞𝐧𝐗 𝐂𝐥𝐨𝐮𝐝"
+      - key: OWNER_USERNAME
+        value: "@devxenx"
+      - key: UPDATE_CHANNEL
+        value: "https://t.me/Dev_Exploits"
+      - key: TELEGRAM_CHANNEL
+        value: "https://t.me/Dev_Exploits"
+      - key: WHATSAPP_CHANNEL
+        value: "https://whatsapp.com/channel/0029VbDpg0e7j6g0DZrTLh2X"
+      - key: YOUTUBE_CHANNEL
+        value: "https://youtube.com/@devxenx"
+      - key: INSTAGRAM_URL
+        value: "https://instagram.com/devxenx"
+      - key: DISCORD_URL
+        value: "https://discord.com/app"
+      - key: X_URL
+        value: "https://x.com/devxenx"
+      - key: ADMIN_PASSWORD
+        sync: false
